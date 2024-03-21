@@ -37,20 +37,20 @@
 //    }
 //}// if we dont want the particular method remove the caller
 // GETTING THE RETURN VALUE
-    public class Method {
-        int add(int a, int b) {
-            int c = a + b;
+    // public class Method {
+    //     int add(int a, int b) {
+    //         int c = a + b;
 
-            return c;
+    //         return c;
 
 
-        }
+    //     }
 
-        public static void main(String[] args) {
-            Method caller = new Method();
+    //     public static void main(String[] args) {
+    //         Method caller = new Method();
 
-           int d= caller.add(10, 5);// in this we assign the value for the integer d
-            System.out.println("Result" + d);
+    //        int d= caller.add(10, 5);// in this we assign the value for the integer d
+    //         System.out.println("Result" + d);
 
         }
     }
